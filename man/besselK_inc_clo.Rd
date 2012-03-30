@@ -48,7 +48,7 @@
   Bessel Functions and Their Applications to Physics. 
   London: MacMillan and Co.}
 }
-\author{Thanh T. Tran \email{package.frmqa@gmail.com}}
+\author{Thanh T. Tran \email{frmqa.package@gmail.com}}
 \seealso{\code{besselK_app_ser}, 
   \code{besselK}
 }

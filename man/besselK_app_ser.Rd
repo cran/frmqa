@@ -50,7 +50,7 @@
 }
 
 \author{
-  Thanh T. Tran \email{package.frmqa@gmail.com}
+  Thanh T. Tran \email{frmqa.package@gmail.com}
 }   
 
 \examples{

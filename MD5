@@ -1,6 +1,6 @@
-ef0a62a09f5efb421e01a59b95edfa12 *DESCRIPTION
+4c9c92e59ce126934ec63adba3e75308 *DESCRIPTION
 df390c53434517b304ac5db487184641 *NAMESPACE
 7721ab9384b6b0594d76ee63bee3d867 *R/frmqa.R
-113fde3ff4b88b43bff22ce28e393de1 *man/besselK_app_ser.Rd
-5c6086f4828853113fafdbfe89bb9c51 *man/besselK_inc_clo.Rd
-3b2c753c9817923923532e2ae5b4b4aa *man/frmqa-package.Rd
+8f5ddc36ddc8aba822d4af27745fdc60 *man/besselK_app_ser.Rd
+3cc6adbe0e3fdf08ba68293430ec759a *man/besselK_inc_clo.Rd
+b6cc9accc33b803948fac39242716eae *man/frmqa-package.Rd

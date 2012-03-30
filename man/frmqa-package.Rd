@@ -17,7 +17,7 @@ package \bold{gsl}.
 \tabular{ll}{
 Package: \tab frmqa\cr
 Type: \tab Package\cr
-Version: \tab 0.1-0\cr
+Version: \tab 0.1-1\cr
 Date: \tab 2012-03-30\cr
 License: \tab GPL (>= 2)\cr
 }
@@ -26,5 +26,5 @@ Note that the package is under current development with more functions are plann
 \author{
     Thanh T. Tran
 
-    Maintainer: Thanh T. Tran <package.frmqa@gmail.com>
+    Maintainer: Thanh T. Tran <frmqa.package@gmail.com>
 }

@@ -28,30 +28,34 @@
   value of \eqn{\lambda}, this function checks if the 
   entered value of \code{z} is sufficiently large. Otherwise it 
   approximates this value. The function returns: an accurate 
-  approximated value of \eqn{K_{\lambda}(z)} (up to 15 dp) and a 
-  finite number of terms in the summation. By using this function 
-  the mathematical difficulties due to the presence of
-  \eqn{K_{\lambda}(z)} in the density function of the 
-  generalized hyperbolic and related distributions 
-  can be dealt with in a much simpler way. If 
-  \code{z >=705} then approximated value is on an 
-  exponential scale to avoid underflow.
+  approximated value of \eqn{K_{\lambda}(z)} (up to 19 dp) and a 
+  finite number of terms in the summation. 
 }
 
 \references{
-    \cite{Olver, F.W.J., Lozier, D.W., Boisver, R.F., 
-    Clark, C.W., 2010. Handbook of Mathematical Functions. 
-    New York: National Institute of Standards and 
-    Technology, and Cambridge University Press.}
-
-    \cite{Abramowitz, M., Stegun, I. A., 1970. 
-    Handbook of Mathematical Functions with Formulas, 
-    Graphs, and Mathematical Tables. New York: Dover.}
-}
+  \cite{Abramowitz, M., Stegun, I. A., (1970) 
+  Handbook of Mathematical Functions with Formulas, 
+  Graphs, and Mathematical Tables. New York: Dover.}
+    
+  \cite{Olver, F.W.J., Lozier, D.W., Boisver, R.F. and Clark,
+  C.W. (2010) Handbook of Mathematical Functions. 
+  New York: National Institute of Standards and Technology, 
+  and Cambridge University Press.}
+  
+  \cite{Tran, T. T. (2011) Some Problems Concerning the Generalized Hyperbolic 
+  and Related Distributions. Ph.D Thesis. University of Auckland, New Zealand.}
+}  
 
 \author{
   Thanh T. Tran \email{frmqa.package@gmail.com}
 }   
+
+\note{
+  By using \code{besselK_app_ser}  
+  formulae for mean, variance, skewness 
+  and kurtosis of GH and GIG can be expressed in closed-form if the shape parameter
+  is sufficiently larege. If \code{z >=705} then approximated value is on an 
+  exponential scale to avoid underflow.}
 
 \examples{
   besselK_app_ser(73, 9.12, details = TRUE)

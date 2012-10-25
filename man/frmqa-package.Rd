@@ -3,23 +3,33 @@
 \alias{frmqa}
 \docType{package}
 \title{
-A Package for \bold{F}inancial \bold{R}isk Management and \bold{Q}uantitative \bold{A}nalysis
+A Package for \bold{F}inancial \bold{R}isk Management 
+and \bold{Q}uantitative \bold{A}nalysis
 }
 \description{
-This package comprises of R and C++ functions which focus on dealing with issues relating to financial 
-risk management and quantitative analysis applying uni- and multi-variate generalized hyperbolic and 
-related distributions. These issues are approached from both directions: analytical (i.e., deriving 
-and programing analytic formulae) and numerical. In this package, the naming of special functions and their 
-related functions (e.g., the modified Bessel function of the third kind BesselK and incomplete BesselK functions) follows the convention used in the R 
+This package comprises of R and C++ functions which deal with 
+issues relating 
+to financial risk management and quantitative analysis by applying 
+uni- and multi-variate generalized hyperbolic and related distributions. 
+These issues are approached from both directions: analytical (i.e., deriving 
+and programing analytic formulae) and numerical. Note that the latter 
+appears to be the only approach currently used in practice because of the 
+intractability of these families of distributions, which is caused by 
+the presence of the modified Bessel function of the third kind 
+BesselK \eqn{K_{\lambda}(z)}, in their density functions. In this 
+package, the naming of special functions and their related 
+functions (e.g., BesselK and incomplete BesselK functions) 
+follows the convention used in the R 
 package \bold{gsl}. 
 }
 \details{
 \tabular{ll}{
 Package: \tab frmqa\cr
 Type: \tab Package\cr
-Version: \tab 0.1-3\cr
-Date: \tab 2012-07-29\cr
+Version: \tab 0.1-4\cr
+Date: \tab 2012-10-25\cr
 License: \tab GPL (>= 2)\cr
 }
-Note that the package is under current development with more functions are planned to be added shortly.
+The package is under current development with more 
+functions are planned to be added shortly.
 }

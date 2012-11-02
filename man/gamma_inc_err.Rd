@@ -68,7 +68,7 @@
 \examples{
   ## Accuracy tests
   x <- 3
-  lambda <- c(3/2, 5/2)
+  lambda <- 3/2
   lower <- sapply(lambda, function(w.)
     gamma_inc_err(x, lambda = w., 200, lower = TRUE))
   upper <- sapply(lambda, function(w.)

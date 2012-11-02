@@ -20,7 +20,7 @@
     with \eqn{j = 0, 1, 2, \ldots}.}
   \item{chi}{Parameter chi > 0.}
   \item{psi}{Parameter psi > 0.}
-  \item{lower.tail}{Logical. \eqn{P(W < w)}, c.d.f, is
+  \item{lower.tail}{Logical. \eqn{P(W < w)} is
     returned if \code{TRUE}.}
   \item{bit}{Precision bit. A positive integer greater or equal 100.}	
 }
@@ -79,7 +79,7 @@
 q <- 1
 chi <- 3
 psi <- 15
-lambda <- c(1/2, 3/2)
+lambda <- 5/2
 lowerTail <- sapply(lambda, function(w.)
   pgig(q, chi, psi, lambda = w., lower.tail = TRUE, 200))
 upperTail <- sapply(lambda, function(w.)

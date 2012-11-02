@@ -1,8 +1,8 @@
 Package: frmqa
 Title: The Generalized Hyperbolic Distribution, Related Distributions
         and Their Applications in Finance
-Version: 0.1-4
-Date: 2012-10-25
+Version: 0.1-5
+Date: 2012-11-2
 Author: Thanh T. Tran
 Maintainer: Thanh T. Tran <frmqa.package@gmail.com>
 Depends: partitions, Rmpfr
@@ -12,5 +12,5 @@ Description: A collection of R and C++ functions to work with the
         quantitative analysis.
 License: GPL (>= 2)
 Repository: CRAN
-Packaged: 2012-10-25 14:36:27 UTC; Tran
-Date/Publication: 2012-10-25 15:55:06
+Packaged: 2012-11-02 08:45:46 UTC; Tran
+Date/Publication: 2012-11-02 09:15:35

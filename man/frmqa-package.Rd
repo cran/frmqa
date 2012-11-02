@@ -26,8 +26,8 @@ package \bold{gsl}.
 \tabular{ll}{
 Package: \tab frmqa\cr
 Type: \tab Package\cr
-Version: \tab 0.1-4\cr
-Date: \tab 2012-10-25\cr
+Version: \tab 0.1-5\cr
+Date: \tab 2012-11-2\cr
 License: \tab GPL (>= 2)\cr
 }
 The package is under current development with more 

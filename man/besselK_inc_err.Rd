@@ -71,7 +71,7 @@
   ## Accuracy tests
   x <- 2
   z <- 5
-  lambda <- -c(1/2, 5/2)
+  lambda <- -c(1/2, 3/2)
   lower <- sapply(lambda, function(w.)
     besselK_inc_err(x, z, lambda = w., 200, lower = TRUE))
   upper <- sapply(lambda, function(w.)
